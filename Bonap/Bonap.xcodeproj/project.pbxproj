@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E97AF17A19A0948900823074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97AF17919A0948900823074 /* Foundation.framework */; };
+		E97AF17C19A0948900823074 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97AF17B19A0948900823074 /* CoreGraphics.framework */; };
+		E97AF17E19A0948900823074 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97AF17D19A0948900823074 /* UIKit.framework */; };
+		E97AF18419A0948900823074 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E97AF18219A0948900823074 /* InfoPlist.strings */; };
+		E97AF18619A0948900823074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E97AF18519A0948900823074 /* main.m */; };
+		E97AF18A19A0948900823074 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E97AF18919A0948900823074 /* AppDelegate.m */; };
+		E97AF18D19A0948900823074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97AF18B19A0948900823074 /* Main.storyboard */; };
+		E97AF19019A0948900823074 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97AF18F19A0948900823074 /* ViewController.m */; };
+		E97AF19219A0948900823074 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97AF19119A0948900823074 /* Images.xcassets */; };
+		E97AF19919A0948900823074 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97AF19819A0948900823074 /* XCTest.framework */; };
+		E97AF19A19A0948900823074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97AF17919A0948900823074 /* Foundation.framework */; };
+		E97AF19B19A0948900823074 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97AF17D19A0948900823074 /* UIKit.framework */; };
+		E97AF1A319A0948900823074 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E97AF1A119A0948900823074 /* InfoPlist.strings */; };
+		E97AF1A519A0948900823074 /* BonapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E97AF1A419A0948900823074 /* BonapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E97AF19C19A0948900823074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E97AF16E19A0948900823074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E97AF17519A0948900823074;
+			remoteInfo = Bonap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E97AF17619A0948900823074 /* Bonap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bonap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97AF17919A0948900823074 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E97AF17B19A0948900823074 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E97AF17D19A0948900823074 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E97AF18119A0948900823074 /* Bonap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bonap-Info.plist"; sourceTree = "<group>"; };
+		E97AF18319A0948900823074 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E97AF18519A0948900823074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E97AF18719A0948900823074 /* Bonap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bonap-Prefix.pch"; sourceTree = "<group>"; };
+		E97AF18819A0948900823074 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E97AF18919A0948900823074 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E97AF18C19A0948900823074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E97AF18E19A0948900823074 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E97AF18F19A0948900823074 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E97AF19119A0948900823074 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E97AF19719A0948900823074 /* BonapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97AF19819A0948900823074 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E97AF1A019A0948900823074 /* BonapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BonapTests-Info.plist"; sourceTree = "<group>"; };
+		E97AF1A219A0948900823074 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E97AF1A419A0948900823074 /* BonapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BonapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E97AF17319A0948900823074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97AF17C19A0948900823074 /* CoreGraphics.framework in Frameworks */,
+				E97AF17E19A0948900823074 /* UIKit.framework in Frameworks */,
+				E97AF17A19A0948900823074 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97AF19419A0948900823074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97AF19919A0948900823074 /* XCTest.framework in Frameworks */,
+				E97AF19B19A0948900823074 /* UIKit.framework in Frameworks */,
+				E97AF19A19A0948900823074 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E97AF16D19A0948900823074 = {
+			isa = PBXGroup;
+			children = (
+				E97AF17F19A0948900823074 /* Bonap */,
+				E97AF19E19A0948900823074 /* BonapTests */,
+				E97AF17819A0948900823074 /* Frameworks */,
+				E97AF17719A0948900823074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E97AF17719A0948900823074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E97AF17619A0948900823074 /* Bonap.app */,
+				E97AF19719A0948900823074 /* BonapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E97AF17819A0948900823074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E97AF17919A0948900823074 /* Foundation.framework */,
+				E97AF17B19A0948900823074 /* CoreGraphics.framework */,
+				E97AF17D19A0948900823074 /* UIKit.framework */,
+				E97AF19819A0948900823074 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E97AF17F19A0948900823074 /* Bonap */ = {
+			isa = PBXGroup;
+			children = (
+				E97AF18819A0948900823074 /* AppDelegate.h */,
+				E97AF18919A0948900823074 /* AppDelegate.m */,
+				E97AF18B19A0948900823074 /* Main.storyboard */,
+				E97AF18E19A0948900823074 /* ViewController.h */,
+				E97AF18F19A0948900823074 /* ViewController.m */,
+				E97AF19119A0948900823074 /* Images.xcassets */,
+				E97AF18019A0948900823074 /* Supporting Files */,
+			);
+			path = Bonap;
+			sourceTree = "<group>";
+		};
+		E97AF18019A0948900823074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E97AF18119A0948900823074 /* Bonap-Info.plist */,
+				E97AF18219A0948900823074 /* InfoPlist.strings */,
+				E97AF18519A0948900823074 /* main.m */,
+				E97AF18719A0948900823074 /* Bonap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E97AF19E19A0948900823074 /* BonapTests */ = {
+			isa = PBXGroup;
+			children = (
+				E97AF1A419A0948900823074 /* BonapTests.m */,
+				E97AF19F19A0948900823074 /* Supporting Files */,
+			);
+			path = BonapTests;
+			sourceTree = "<group>";
+		};
+		E97AF19F19A0948900823074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E97AF1A019A0948900823074 /* BonapTests-Info.plist */,
+				E97AF1A119A0948900823074 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E97AF17519A0948900823074 /* Bonap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97AF1A819A0948900823074 /* Build configuration list for PBXNativeTarget "Bonap" */;
+			buildPhases = (
+				E97AF17219A0948900823074 /* Sources */,
+				E97AF17319A0948900823074 /* Frameworks */,
+				E97AF17419A0948900823074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bonap;
+			productName = Bonap;
+			productReference = E97AF17619A0948900823074 /* Bonap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E97AF19619A0948900823074 /* BonapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97AF1AB19A0948900823074 /* Build configuration list for PBXNativeTarget "BonapTests" */;
+			buildPhases = (
+				E97AF19319A0948900823074 /* Sources */,
+				E97AF19419A0948900823074 /* Frameworks */,
+				E97AF19519A0948900823074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E97AF19D19A0948900823074 /* PBXTargetDependency */,
+			);
+			name = BonapTests;
+			productName = BonapTests;
+			productReference = E97AF19719A0948900823074 /* BonapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E97AF16E19A0948900823074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					E97AF19619A0948900823074 = {
+						TestTargetID = E97AF17519A0948900823074;
+					};
+				};
+			};
+			buildConfigurationList = E97AF17119A0948900823074 /* Build configuration list for PBXProject "Bonap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E97AF16D19A0948900823074;
+			productRefGroup = E97AF17719A0948900823074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E97AF17519A0948900823074 /* Bonap */,
+				E97AF19619A0948900823074 /* BonapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E97AF17419A0948900823074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97AF19219A0948900823074 /* Images.xcassets in Resources */,
+				E97AF18419A0948900823074 /* InfoPlist.strings in Resources */,
+				E97AF18D19A0948900823074 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97AF19519A0948900823074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97AF1A319A0948900823074 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E97AF17219A0948900823074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97AF19019A0948900823074 /* ViewController.m in Sources */,
+				E97AF18A19A0948900823074 /* AppDelegate.m in Sources */,
+				E97AF18619A0948900823074 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97AF19319A0948900823074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97AF1A519A0948900823074 /* BonapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E97AF19D19A0948900823074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E97AF17519A0948900823074 /* Bonap */;
+			targetProxy = E97AF19C19A0948900823074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E97AF18219A0948900823074 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E97AF18319A0948900823074 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E97AF18B19A0948900823074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E97AF18C19A0948900823074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E97AF1A119A0948900823074 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E97AF1A219A0948900823074 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E97AF1A619A0948900823074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E97AF1A719A0948900823074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E97AF1A919A0948900823074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bonap/Bonap-Prefix.pch";
+				INFOPLIST_FILE = "Bonap/Bonap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E97AF1AA19A0948900823074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bonap/Bonap-Prefix.pch";
+				INFOPLIST_FILE = "Bonap/Bonap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E97AF1AC19A0948900823074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bonap.app/Bonap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bonap/Bonap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BonapTests/BonapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E97AF1AD19A0948900823074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bonap.app/Bonap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bonap/Bonap-Prefix.pch";
+				INFOPLIST_FILE = "BonapTests/BonapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E97AF17119A0948900823074 /* Build configuration list for PBXProject "Bonap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97AF1A619A0948900823074 /* Debug */,
+				E97AF1A719A0948900823074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E97AF1A819A0948900823074 /* Build configuration list for PBXNativeTarget "Bonap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97AF1A919A0948900823074 /* Debug */,
+				E97AF1AA19A0948900823074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E97AF1AB19A0948900823074 /* Build configuration list for PBXNativeTarget "BonapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97AF1AC19A0948900823074 /* Debug */,
+				E97AF1AD19A0948900823074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E97AF16E19A0948900823074 /* Project object */;
+}

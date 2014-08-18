@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E96F9DAB19A1B1D500773ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96F9DA919A1B1D500773ADE /* Main.storyboard */; };
+		E96F9DC019A1B63300773ADE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DBF19A1B63300773ADE /* HomeViewController.m */; };
+		E96F9DC319A1B64500773ADE /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DC219A1B64500773ADE /* TweetViewController.m */; };
+		E96F9DC619A1B65200773ADE /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DC519A1B65200773ADE /* RankingViewController.m */; };
+		E96F9DC919A1B65C00773ADE /* InitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DC819A1B65C00773ADE /* InitViewController.m */; };
+		E96F9DCC19A1B67A00773ADE /* StatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DCB19A1B67A00773ADE /* StatusViewController.m */; };
+		E96F9DCF19A1B68200773ADE /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DCE19A1B68200773ADE /* AlbumViewController.m */; };
+		E96F9DD219A1B68A00773ADE /* shopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DD119A1B68A00773ADE /* shopViewController.m */; };
+		E96F9DD519A1B69800773ADE /* ClosetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DD419A1B69800773ADE /* ClosetViewController.m */; };
+		E96F9DD819A1B6AE00773ADE /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DD719A1B6AE00773ADE /* ConfigViewController.m */; };
+		E96F9DDB19A1B6BC00773ADE /* TwitterInitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DDA19A1B6BC00773ADE /* TwitterInitViewController.m */; };
+		E96F9DDE19A1B6C900773ADE /* ProfileInitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DDD19A1B6C900773ADE /* ProfileInitViewController.m */; };
+		E96F9DE119A1BC5300773ADE /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DE019A1BC5300773ADE /* testViewController.m */; };
 		E97AF17A19A0948900823074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97AF17919A0948900823074 /* Foundation.framework */; };
 		E97AF17C19A0948900823074 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97AF17B19A0948900823074 /* CoreGraphics.framework */; };
 		E97AF17E19A0948900823074 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97AF17D19A0948900823074 /* UIKit.framework */; };
 		E97AF18419A0948900823074 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E97AF18219A0948900823074 /* InfoPlist.strings */; };
 		E97AF18619A0948900823074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E97AF18519A0948900823074 /* main.m */; };
 		E97AF18A19A0948900823074 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E97AF18919A0948900823074 /* AppDelegate.m */; };
-		E97AF18D19A0948900823074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97AF18B19A0948900823074 /* Main.storyboard */; };
-		E97AF19019A0948900823074 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97AF18F19A0948900823074 /* ViewController.m */; };
 		E97AF19219A0948900823074 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97AF19119A0948900823074 /* Images.xcassets */; };
 		E97AF19919A0948900823074 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97AF19819A0948900823074 /* XCTest.framework */; };
 		E97AF19A19A0948900823074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97AF17919A0948900823074 /* Foundation.framework */; };
@@ -34,6 +45,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E96F9DAA19A1B1D500773ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E96F9DBE19A1B63300773ADE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E96F9DBF19A1B63300773ADE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		E96F9DC119A1B64500773ADE /* TweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
+		E96F9DC219A1B64500773ADE /* TweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
+		E96F9DC419A1B65200773ADE /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewController.h; sourceTree = "<group>"; };
+		E96F9DC519A1B65200773ADE /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewController.m; sourceTree = "<group>"; };
+		E96F9DC719A1B65C00773ADE /* InitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitViewController.h; sourceTree = "<group>"; };
+		E96F9DC819A1B65C00773ADE /* InitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitViewController.m; sourceTree = "<group>"; };
+		E96F9DCA19A1B67A00773ADE /* StatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusViewController.h; sourceTree = "<group>"; };
+		E96F9DCB19A1B67A00773ADE /* StatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusViewController.m; sourceTree = "<group>"; };
+		E96F9DCD19A1B68200773ADE /* AlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		E96F9DCE19A1B68200773ADE /* AlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
+		E96F9DD019A1B68A00773ADE /* shopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shopViewController.h; sourceTree = "<group>"; };
+		E96F9DD119A1B68A00773ADE /* shopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shopViewController.m; sourceTree = "<group>"; };
+		E96F9DD319A1B69800773ADE /* ClosetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClosetViewController.h; sourceTree = "<group>"; };
+		E96F9DD419A1B69800773ADE /* ClosetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClosetViewController.m; sourceTree = "<group>"; };
+		E96F9DD619A1B6AE00773ADE /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		E96F9DD719A1B6AE00773ADE /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
+		E96F9DD919A1B6BC00773ADE /* TwitterInitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterInitViewController.h; sourceTree = "<group>"; };
+		E96F9DDA19A1B6BC00773ADE /* TwitterInitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterInitViewController.m; sourceTree = "<group>"; };
+		E96F9DDC19A1B6C900773ADE /* ProfileInitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileInitViewController.h; sourceTree = "<group>"; };
+		E96F9DDD19A1B6C900773ADE /* ProfileInitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileInitViewController.m; sourceTree = "<group>"; };
+		E96F9DDF19A1BC5300773ADE /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		E96F9DE019A1BC5300773ADE /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		E97AF17619A0948900823074 /* Bonap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bonap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97AF17919A0948900823074 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E97AF17B19A0948900823074 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,9 +80,6 @@
 		E97AF18719A0948900823074 /* Bonap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bonap-Prefix.pch"; sourceTree = "<group>"; };
 		E97AF18819A0948900823074 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E97AF18919A0948900823074 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E97AF18C19A0948900823074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E97AF18E19A0948900823074 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E97AF18F19A0948900823074 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E97AF19119A0948900823074 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E97AF19719A0948900823074 /* BonapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97AF19819A0948900823074 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -112,12 +145,34 @@
 		E97AF17F19A0948900823074 /* Bonap */ = {
 			isa = PBXGroup;
 			children = (
+				E96F9DA919A1B1D500773ADE /* Main.storyboard */,
+				E96F9DDF19A1BC5300773ADE /* testViewController.h */,
+				E96F9DE019A1BC5300773ADE /* testViewController.m */,
 				E97AF18819A0948900823074 /* AppDelegate.h */,
 				E97AF18919A0948900823074 /* AppDelegate.m */,
-				E97AF18B19A0948900823074 /* Main.storyboard */,
-				E97AF18E19A0948900823074 /* ViewController.h */,
-				E97AF18F19A0948900823074 /* ViewController.m */,
 				E97AF19119A0948900823074 /* Images.xcassets */,
+				E96F9DBE19A1B63300773ADE /* HomeViewController.h */,
+				E96F9DBF19A1B63300773ADE /* HomeViewController.m */,
+				E96F9DC119A1B64500773ADE /* TweetViewController.h */,
+				E96F9DC219A1B64500773ADE /* TweetViewController.m */,
+				E96F9DC419A1B65200773ADE /* RankingViewController.h */,
+				E96F9DC519A1B65200773ADE /* RankingViewController.m */,
+				E96F9DC719A1B65C00773ADE /* InitViewController.h */,
+				E96F9DC819A1B65C00773ADE /* InitViewController.m */,
+				E96F9DCA19A1B67A00773ADE /* StatusViewController.h */,
+				E96F9DCB19A1B67A00773ADE /* StatusViewController.m */,
+				E96F9DCD19A1B68200773ADE /* AlbumViewController.h */,
+				E96F9DCE19A1B68200773ADE /* AlbumViewController.m */,
+				E96F9DD019A1B68A00773ADE /* shopViewController.h */,
+				E96F9DD119A1B68A00773ADE /* shopViewController.m */,
+				E96F9DD319A1B69800773ADE /* ClosetViewController.h */,
+				E96F9DD419A1B69800773ADE /* ClosetViewController.m */,
+				E96F9DD619A1B6AE00773ADE /* ConfigViewController.h */,
+				E96F9DD719A1B6AE00773ADE /* ConfigViewController.m */,
+				E96F9DD919A1B6BC00773ADE /* TwitterInitViewController.h */,
+				E96F9DDA19A1B6BC00773ADE /* TwitterInitViewController.m */,
+				E96F9DDC19A1B6C900773ADE /* ProfileInitViewController.h */,
+				E96F9DDD19A1B6C900773ADE /* ProfileInitViewController.m */,
 				E97AF18019A0948900823074 /* Supporting Files */,
 			);
 			path = Bonap;
@@ -228,9 +283,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96F9DAB19A1B1D500773ADE /* Main.storyboard in Resources */,
 				E97AF19219A0948900823074 /* Images.xcassets in Resources */,
 				E97AF18419A0948900823074 /* InfoPlist.strings in Resources */,
-				E97AF18D19A0948900823074 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +304,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E97AF19019A0948900823074 /* ViewController.m in Sources */,
+				E96F9DDB19A1B6BC00773ADE /* TwitterInitViewController.m in Sources */,
+				E96F9DD519A1B69800773ADE /* ClosetViewController.m in Sources */,
+				E96F9DCF19A1B68200773ADE /* AlbumViewController.m in Sources */,
+				E96F9DC319A1B64500773ADE /* TweetViewController.m in Sources */,
 				E97AF18A19A0948900823074 /* AppDelegate.m in Sources */,
+				E96F9DC919A1B65C00773ADE /* InitViewController.m in Sources */,
 				E97AF18619A0948900823074 /* main.m in Sources */,
+				E96F9DC019A1B63300773ADE /* HomeViewController.m in Sources */,
+				E96F9DC619A1B65200773ADE /* RankingViewController.m in Sources */,
+				E96F9DD219A1B68A00773ADE /* shopViewController.m in Sources */,
+				E96F9DCC19A1B67A00773ADE /* StatusViewController.m in Sources */,
+				E96F9DDE19A1B6C900773ADE /* ProfileInitViewController.m in Sources */,
+				E96F9DE119A1BC5300773ADE /* testViewController.m in Sources */,
+				E96F9DD819A1B6AE00773ADE /* ConfigViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,20 +340,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		E96F9DA919A1B1D500773ADE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E96F9DAA19A1B1D500773ADE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		E97AF18219A0948900823074 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E97AF18319A0948900823074 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E97AF18B19A0948900823074 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E97AF18C19A0948900823074 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		E97AF1A119A0948900823074 /* InfoPlist.strings */ = {
@@ -376,10 +442,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: MINAMI OKADA (79NQ4U6JA3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bonap/Bonap-Prefix.pch";
 				INFOPLIST_FILE = "Bonap/Bonap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b11617b8-a708-4c39-b3e4-c7d383700189";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +457,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: MINAMI OKADA (79NQ4U6JA3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bonap/Bonap-Prefix.pch";
 				INFOPLIST_FILE = "Bonap/Bonap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b11617b8-a708-4c39-b3e4-c7d383700189";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +526,7 @@
 				E97AF1AA19A0948900823074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E97AF1AB19A0948900823074 /* Build configuration list for PBXNativeTarget "BonapTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +535,7 @@
 				E97AF1AD19A0948900823074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

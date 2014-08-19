@@ -258,10 +258,10 @@
             </objects>
             <point key="canvasLocation" x="-2462" y="281"/>
         </scene>
-        <!--Tweet View Controller - Item 2-->
+        <!--View Controller - Item 2-->
         <scene sceneID="egd-aT-fDM">
             <objects>
-                <viewController id="ADa-iB-viB" customClass="TweetViewController" sceneMemberID="viewController">
+                <viewController id="ADa-iB-viB" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="D1h-Ww-Jks"/>
                         <viewControllerLayoutGuide type="bottom" id="4wf-tI-oOe"/>
@@ -269,14 +269,6 @@
                     <view key="view" contentMode="scaleToFill" id="PlG-Hn-wrn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="tweet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsS-c7-Z31">
-                                <rect key="frame" x="139" y="237" width="43" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="xNx-7g-uee"/>

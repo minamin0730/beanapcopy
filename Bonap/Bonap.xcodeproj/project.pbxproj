@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB964A4719A2F49A000E281E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB964A4619A2F49A000E281E /* ViewController.m */; };
 		E96F9DAB19A1B1D500773ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96F9DA919A1B1D500773ADE /* Main.storyboard */; };
 		E96F9DC019A1B63300773ADE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DBF19A1B63300773ADE /* HomeViewController.m */; };
 		E96F9DC319A1B64500773ADE /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DC219A1B64500773ADE /* TweetViewController.m */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB964A4519A2F49A000E281E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB964A4619A2F49A000E281E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E96F9DAA19A1B1D500773ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E96F9DBE19A1B63300773ADE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		E96F9DBF19A1B63300773ADE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 				E96F9DDA19A1B6BC00773ADE /* TwitterInitViewController.m */,
 				E96F9DDC19A1B6C900773ADE /* ProfileInitViewController.h */,
 				E96F9DDD19A1B6C900773ADE /* ProfileInitViewController.m */,
+				BB964A4519A2F49A000E281E /* ViewController.h */,
+				BB964A4619A2F49A000E281E /* ViewController.m */,
 				E97AF18019A0948900823074 /* Supporting Files */,
 			);
 			path = Bonap;
@@ -313,6 +318,7 @@
 				E97AF18619A0948900823074 /* main.m in Sources */,
 				E96F9DC019A1B63300773ADE /* HomeViewController.m in Sources */,
 				E96F9DC619A1B65200773ADE /* RankingViewController.m in Sources */,
+				BB964A4719A2F49A000E281E /* ViewController.m in Sources */,
 				E96F9DD219A1B68A00773ADE /* shopViewController.m in Sources */,
 				E96F9DCC19A1B67A00773ADE /* StatusViewController.m in Sources */,
 				E96F9DDE19A1B6C900773ADE /* ProfileInitViewController.m in Sources */,

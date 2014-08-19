@@ -56,7 +56,6 @@
 //カメラの表示
 -(void)showCamera
 {
-    photFlag = FALSE;
     NSLog(@"カメラ表示");
     UIImagePickerControllerSourceType sourceType = UIImagePickerControllerSourceTypeCamera;
     if(![UIImagePickerController isSourceTypeAvailable:sourceType]){
@@ -72,6 +71,7 @@
 //フォトライブラリの表示
 -(void)showPhotoLibrary
 {
+    photFlag = FALSE;
     UIImagePickerControllerSourceType sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
     if(![UIImagePickerController isSourceTypeAvailable:sourceType]){
         return;
@@ -109,7 +109,7 @@
     SLComposeViewController *vc = [SLComposeViewController
                                    composeViewControllerForServiceType:SLServiceTypeTwitter];
     
-    [vc setInitialText:@"#Beanap!"];
+    [vc setInitialText:@" #Beanap!"];
     
     [vc addImage:originalImage];
     

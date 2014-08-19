@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		BB964A4719A2F49A000E281E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB964A4619A2F49A000E281E /* ViewController.m */; };
+		E91D7EB619A3733C008DF5D3 /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91D7EB519A3733C008DF5D3 /* RankingViewController.m */; };
+		E91D7EB819A373BC008DF5D3 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91D7EB719A373BC008DF5D3 /* Social.framework */; };
+		E91D7EBA19A373CC008DF5D3 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91D7EB919A373CC008DF5D3 /* Accounts.framework */; };
 		E96F9DAB19A1B1D500773ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96F9DA919A1B1D500773ADE /* Main.storyboard */; };
 		E96F9DC019A1B63300773ADE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DBF19A1B63300773ADE /* HomeViewController.m */; };
 		E96F9DC319A1B64500773ADE /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DC219A1B64500773ADE /* TweetViewController.m */; };
-		E96F9DC619A1B65200773ADE /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DC519A1B65200773ADE /* RankingViewController.m */; };
 		E96F9DC919A1B65C00773ADE /* InitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DC819A1B65C00773ADE /* InitViewController.m */; };
 		E96F9DCC19A1B67A00773ADE /* StatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DCB19A1B67A00773ADE /* StatusViewController.m */; };
 		E96F9DCF19A1B68200773ADE /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F9DCE19A1B68200773ADE /* AlbumViewController.m */; };
@@ -48,13 +50,15 @@
 /* Begin PBXFileReference section */
 		BB964A4519A2F49A000E281E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BB964A4619A2F49A000E281E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E91D7EB419A3733C008DF5D3 /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewController.h; sourceTree = "<group>"; };
+		E91D7EB519A3733C008DF5D3 /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewController.m; sourceTree = "<group>"; };
+		E91D7EB719A373BC008DF5D3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E91D7EB919A373CC008DF5D3 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		E96F9DAA19A1B1D500773ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E96F9DBE19A1B63300773ADE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		E96F9DBF19A1B63300773ADE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		E96F9DC119A1B64500773ADE /* TweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
 		E96F9DC219A1B64500773ADE /* TweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
-		E96F9DC419A1B65200773ADE /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewController.h; sourceTree = "<group>"; };
-		E96F9DC519A1B65200773ADE /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewController.m; sourceTree = "<group>"; };
 		E96F9DC719A1B65C00773ADE /* InitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitViewController.h; sourceTree = "<group>"; };
 		E96F9DC819A1B65C00773ADE /* InitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitViewController.m; sourceTree = "<group>"; };
 		E96F9DCA19A1B67A00773ADE /* StatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusViewController.h; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91D7EBA19A373CC008DF5D3 /* Accounts.framework in Frameworks */,
+				E91D7EB819A373BC008DF5D3 /* Social.framework in Frameworks */,
 				E97AF17C19A0948900823074 /* CoreGraphics.framework in Frameworks */,
 				E97AF17E19A0948900823074 /* UIKit.framework in Frameworks */,
 				E97AF17A19A0948900823074 /* Foundation.framework in Frameworks */,
@@ -137,6 +143,8 @@
 		E97AF17819A0948900823074 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E91D7EB919A373CC008DF5D3 /* Accounts.framework */,
+				E91D7EB719A373BC008DF5D3 /* Social.framework */,
 				E97AF17919A0948900823074 /* Foundation.framework */,
 				E97AF17B19A0948900823074 /* CoreGraphics.framework */,
 				E97AF17D19A0948900823074 /* UIKit.framework */,
@@ -149,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				E96F9DA919A1B1D500773ADE /* Main.storyboard */,
+				E91D7EB419A3733C008DF5D3 /* RankingViewController.h */,
+				E91D7EB519A3733C008DF5D3 /* RankingViewController.m */,
 				E96F9DDF19A1BC5300773ADE /* testViewController.h */,
 				E96F9DE019A1BC5300773ADE /* testViewController.m */,
 				E97AF18819A0948900823074 /* AppDelegate.h */,
@@ -158,8 +168,6 @@
 				E96F9DBF19A1B63300773ADE /* HomeViewController.m */,
 				E96F9DC119A1B64500773ADE /* TweetViewController.h */,
 				E96F9DC219A1B64500773ADE /* TweetViewController.m */,
-				E96F9DC419A1B65200773ADE /* RankingViewController.h */,
-				E96F9DC519A1B65200773ADE /* RankingViewController.m */,
 				E96F9DC719A1B65C00773ADE /* InitViewController.h */,
 				E96F9DC819A1B65C00773ADE /* InitViewController.m */,
 				E96F9DCA19A1B67A00773ADE /* StatusViewController.h */,
@@ -317,13 +325,13 @@
 				E96F9DC919A1B65C00773ADE /* InitViewController.m in Sources */,
 				E97AF18619A0948900823074 /* main.m in Sources */,
 				E96F9DC019A1B63300773ADE /* HomeViewController.m in Sources */,
-				E96F9DC619A1B65200773ADE /* RankingViewController.m in Sources */,
 				BB964A4719A2F49A000E281E /* ViewController.m in Sources */,
 				E96F9DD219A1B68A00773ADE /* shopViewController.m in Sources */,
 				E96F9DCC19A1B67A00773ADE /* StatusViewController.m in Sources */,
 				E96F9DDE19A1B6C900773ADE /* ProfileInitViewController.m in Sources */,
 				E96F9DE119A1BC5300773ADE /* testViewController.m in Sources */,
 				E96F9DD819A1B6AE00773ADE /* ConfigViewController.m in Sources */,
+				E91D7EB619A3733C008DF5D3 /* RankingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
